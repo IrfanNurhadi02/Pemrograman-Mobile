@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nama"
+        android:fontFamily="@font/mmedium"
+        android:layout_above="@id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Irfan Nurhadi Prasetyo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_above="@+id/alamat"
+        android:fontFamily="@font/mmedium"
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H071201071"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/alamat"
+        android:fontFamily="@font/mmedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Komplek permata regency, sudiang"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btn_logout"
+        android:fontFamily="@font/mmedium"
+        android:textAllCaps="false"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Logout" />
+    <TextView
+        android:id="@+id/copyright"
+        android:fontFamily="@font/mmedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:text="irfan nurhadi@2022"/>
+
+</RelativeLayout>
